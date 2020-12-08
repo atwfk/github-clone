@@ -1,0 +1,592 @@
+/********** global customizing **********/
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+}
+body section{
+    padding: 80px 0;
+}
+/********** customizing navbar **********/
+.navbar{
+    background: #24292e !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    transition: color 0.5s ease ;
+}
+.navbar .form-inline .form-control{
+    background: #555759;
+    border: none;
+    box-shadow: none;
+    color: #24292e;
+    border-radius: 2;
+}
+.navbar .form-inline .form-control:focus{
+    background: #fff;
+}
+.navbar .form-inline .navbar-nav .sign-up{
+    padding: 4px 6px;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+}
+/********** customizing section jumbotron-codelines **********/
+.jumbotron-codelines{
+    background: url(../image/github/simple-codelines.svg) no-repeat center center #2b3137;
+    background-size: cover;
+    color: hsla(0,0%,100%,.6);
+}
+.jumbotron-codelines .intro{
+    padding-top: 40px;
+}
+/* customizing heading */
+.jumbotron-codelines .heading{
+    padding: 100px 0;
+}
+.jumbotron-codelines .heading h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 500;
+}
+.jumbotron-codelines .heading p{
+    font-size: 20px;
+    font-weight: 400
+}
+.jumbotron-codelines .heading p a{
+    color: #fff;
+    text-decoration: underline hsla(0,0%,100%,.6);
+}
+.jumbotron-codelines .heading p a:hover{
+    text-decoration-color: #fff;
+}
+/* customizing form */
+.jumbotron-codelines .form-login form{
+    background: #fff;
+    color: #586069;
+    padding: 24px;
+    border-radius: 4px;
+}
+.jumbotron-codelines .form-login form label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #363b40;
+}
+.jumbotron-codelines .form-login form input{
+    margin: 5px 0;
+}
+.jumbotron-codelines .form-login form p{
+    font-size: 12px;
+    color: #24292e;
+}
+.jumbotron-codelines .form-login form p span{
+    color: #28a745;
+}
+.jumbotron-codelines .form-login form button{
+    padding: 20px 32px;
+    width: 100%;
+    background: #2ebc4f;
+    border-color: #2ebc4f;
+    font-weight: 500;
+    margin: 16px 0;
+}
+.jumbotron-codelines .form-login form button:hover{
+    background: #1c7e33;
+    border-color: #1c7e33;
+}
+/********** customizing section home-enterprise-wrapper **********/
+.home-enterprise-wrapper{
+    background: #fafbfc;
+}
+.home-enterprise-wrapper .container{
+    background: white;
+    padding: 48px;
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+}
+.home-enterprise-wrapper h2{
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+.home-enterprise-wrapper p{
+    color: #586069;
+    font-size: 20px;
+}
+.home-enterprise-wrapper .serices i{
+    color: #0366d6;
+    margin-bottom: 8px;
+}
+.home-enterprise-wrapper .serices h3{
+    font-size: 16px;
+}
+.home-enterprise-wrapper .serices p{
+    font-size: 14px;
+    color: #586069;
+}
+.home-enterprise-wrapper .serices button,
+.exploring button{
+    background: #0366d6;
+    border-color: #0366d6;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.home-enterprise-wrapper .serices button:hover,
+.exploring button:hover{
+    background: #1d5596;
+    border-color: #1d5596;
+}
+.home-enterprise-wrapper .serices .contact-sales{
+    background: #fff;
+    color: #0366d6;
+}
+.home-enterprise-wrapper .serices .contact-sales:hover{
+    background: #fff;
+    color: #1d5596;
+}
+/********** customizing section exploring **********/
+.exploring .container{
+    background: url(https://github.githubassets.com/images/modules/site/universe19.png) bottom right no-repeat;
+    padding: 48px;
+    border-radius: 5px;
+}
+.exploring h2{
+    color: #fff;
+    font-size: 32px;
+}
+.exploring p{
+    color: hsla(0,0%,100%,.7)!important;
+    font-size: 14px;
+    margin-top: 16px;
+}
+.exploring .explore-launches{
+    padding: 20px 0;
+}
+.exploring button i{
+    margin-left: 10px;
+}
+/********** customizing section our-clients **********/
+.our-clients h3{
+    font-size: 20px;
+    color: #6a737d;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.our-clients i{
+    margin: 16px 42px;
+    color: #6a737d;
+}
+/********** customizing section teamwork **********/
+/* customizing side-1 side */
+.teamwork .side-1 h3,
+.security .side-1 h3,
+.integrations .side-1 h3,
+.workplace .side-1 h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #586069;
+    margin-bottom: 16px;
+}
+.teamwork .side-1 h2,
+.security .side-1 h2,
+.integrations .side-1 h2,
+.workplace .side-1 h2{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.teamwork .side-1 p,
+.security .side-1 p,
+.integrations .side-1 p,
+.workplace .side-1 p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #586069;
+    margin-bottom: 24px;
+}
+.teamwork .side-1 button,
+.security .side-1 button,
+.integrations .side-1 button{
+    padding: 20px 32px;
+    background: #fff;
+    border: 1px solid #1074e7;
+    color: #1074e7;
+}
+/* customizing side-2 side */
+.teamwork .side-2{
+    margin-top: 16px;
+}
+.teamwork .side-2 .teamwork-image-side img,
+.security .side-2 .security-image-side img{
+    max-width: 100%;
+}
+.teamwork .side-2 .teamwork-features-side,
+.workplace .side-3 .workplace-features-side{
+    cursor: pointer;
+    padding: 24px;
+    transition: all 0.7s ease;
+}
+.teamwork .side-2 .teamwork-features-side:hover{
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+}
+.teamwork .side-2 .teamwork-features-side h3,
+.security .side-2 .security-features-side h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.teamwork .side-2 .teamwork-features-side p,
+.security .side-2 .security-features-side p,
+.workplace .side-3 .workplace-features-side p{
+    font-size: 14px;
+    color: #24292e;
+}
+.teamwork .side-2 .teamwork-features-side p span{
+    color: #0366d6;
+    text-decoration: underline;
+}
+/* customizing side-3 side */
+.teamwork .side-3 h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #586069;
+    margin: 40px 0;
+}
+.teamwork .side-3 .enterprise,
+.workplace .side-2 .enterprise{
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(27,31,35,.15);
+    cursor: pointer;
+}
+.teamwork .side-3 img,
+.workplace .side-2 .enterprise img{
+    max-width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+.teamwork .side-3 h4,
+.workplace .side-2 .enterprise h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #24292e;
+    margin-bottom: 4px;
+}
+.teamwork .side-3 span,
+.workplace .side-2 .enterprise p{
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #586069;
+    display: block;   
+}
+.teamwork .side-3 span.read-more,
+.workplace .side-2 .enterprise span{
+    font-size: 14px;
+    color: #1074e7;
+}
+/********** customizing section security **********/
+/* customizing side-2 side */
+.security .side-2{
+    margin-top: 50px;
+}
+.security .side-2 .security-image-side img{
+    max-width: 100%;
+}
+.security .side-2 .security-features-side{
+    padding: 24px;
+}
+/* customizing side-3 side */
+.security .side-3 .hosting{
+    padding: 24px;
+    padding-top: 32;
+    margin: 24px;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.security .side-3 .hosting:hover{
+    box-shadow: 0 1px 15px rgba(27,31,35,.15);
+}
+.security .side-3 .hosting-content h3{
+    font-size: 16px;
+    color: #24292e;
+}
+.security .side-3 .hosting-content p,
+.integrations .side-3 p{
+    font-size: 14px;
+    color: #586069;
+    margin-bottom: 10px;
+}
+.security .side-3 .hosting-content a,
+.integrations .side-3 a{
+    display: block;
+    color: #0366d6;
+    font-size: 16px;
+}
+.security .side-3 .hosting-content a:hover,
+.integrations .side-3 a:hover{
+    text-decoration: none;
+}
+/********** customizing section integrations **********/
+/* customizing side-2 side */
+.integrations .side-2{
+    margin-top: 24px;
+}
+.integrations .side-2 .apps-cluster{
+    width: 96px;
+    height: 96px;
+    padding: 24px;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px rgba(27,31,35,.15);
+    overflow: hidden;
+}
+.integrations .side-2 .apps-cluster img{
+    max-width: 100%;
+}
+.integrations .side-2 .apps-cluster-2,
+.integrations .side-2 .apps-cluster-4,
+.integrations .side-2 .apps-cluster-6{
+    margin: 24px;
+    margin-top: 48px;
+}
+.integrations .side-2 .apps-cluster-1{
+    background: #4A154B;
+}
+.integrations .side-2 .apps-cluster-2{
+    background: #364e98;
+}
+.integrations .side-2 .apps-cluster-3{
+    background: #eff9f9;
+}
+.integrations .side-2 .apps-cluster-4{
+    background: #5fb57d;
+}
+.integrations .side-2 .apps-cluster-5{
+    background: #022531;
+}
+.integrations .side-2 .apps-cluster-6{
+    background: #f2f2f2;
+}
+.integrations .side-2 .apps-cluster-7{
+    background: #303030;
+}
+/* customizing side-3 side */
+.integrations .side-3{
+    margin-top: 36px;
+}
+/********** customizing section workplace **********/
+/* customizing side-3 side */
+.workplace .side-3 .intro p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #586069;
+    margin: 50px 0;
+}
+.workplace .side-3 .workplace-shapes-side{
+    padding-top: 48px;
+}
+.workplace .side-3 .workplace-shapes{
+    padding: 12;
+    margin: 16px;
+    border-radius: 50%;
+    box-shadow: 0 10px 50px rgba(27,31,35,.07);
+}
+.workplace .side-3 .workplace-shapes strong{
+    font-size: 40px;
+    font-weight: 400;
+    display: block;
+    color: #fff;
+}
+.workplace .side-3 .workplace-shapes-1 strong{
+    margin-top: 60px;
+}
+.workplace .side-3 .workplace-shapes-2 strong{
+    margin-top: 32px;
+}
+.workplace .side-3 .workplace-shapes-3 strong{
+    font-size: 32px;
+}
+.workplace .side-3 .workplace-shapes span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.workplace .side-3 .workplace-shapes-1{
+    width: 255px;
+    height: 255px;
+    background: #f66a0a;
+    transition: all .2s;
+    cursor: pointer;
+}
+.workplace .side-3 .workplace-shapes-2{
+    width: 175px;
+    height: 175px;
+    background: #0366d6;
+    transition: all .2s;
+    cursor: pointer;
+}
+.workplace .side-3 .workplace-shapes-3{
+    width: 140px;
+    height: 140px;
+    background: #6f42c1;
+    transition: all .2s;
+    cursor: pointer;
+}
+.workplace .side-3 .workplace-features-side-1 p span{
+    color: #f66a0a;
+    text-decoration: none;
+}
+.workplace .side-3 .workplace-features-side-2 p span{
+    color: #0366d6;
+    text-decoration: none;
+}
+.workplace .side-3 .workplace-features-side-3 p span{
+    color: #6f42c1;
+    text-decoration: none;
+}
+/********** customizing section get-started **********/
+.get-started{
+    background: #24292e;
+}
+.get-started h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.get-started form{
+    padding: 40px 16px;
+}
+.get-started form label{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.get-started form input{
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+.get-started form button{
+    background: #2ebc4f;
+    border: 1px solid #2ebc4f;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+.get-started form button:hover{
+    background: #1c7e33;
+    border-color: #1c7e33;
+}
+.get-started p{
+    font-size: 12px;
+    color: #6a737d;
+}
+.get-started p span{
+    color: #fff;
+    cursor: pointer;
+}
+.get-started p span:hover{
+    text-decoration: underline;
+}
+/********** customizing footer **********/
+footer{
+    padding-top: 80px;
+}
+footer h3{
+    font-size: 26px;
+    color: #24292e;
+    font-weight: bolder;
+    margin-bottom: 32px;
+}
+footer h4{
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #6a737d;
+    font-weight: 400;
+}
+footer ul{
+    margin-bottom: 32px;
+}
+footer ul li a{
+    color: #586069;
+    font-size: 14px;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer .copy-right{
+    background: #fafbfc;
+    padding-top: 20px;
+}
+footer .copy-right li{
+    color: #586069;
+    font-size: 12px;
+    display: inline;
+}
+footer .copy-right li a{
+    text-decoration: none;
+}
+footer .copy-right i{
+    float: right;
+    color: #959da5;
+    cursor: pointer;
+    margin-left: 12px;
+}
+/********** customizing responsive with media query **********/
+@media (max-width: 576px) {
+    .home-enterprise-wrapper .contact-1{
+        margin-top: 36px;
+    }
+    footer .copy-right i{
+        float: left;
+    }
+}
+@media (max-width: 768px) { 
+    .jumbotron-codelines .heading,
+    .home-enterprise-wrapper{
+        text-align: center;
+    }
+    .jumbotron-codelines .heading h1{
+        font-size: 48px;
+    }
+    .jumbotron-codelines .heading p{
+        font-size: 20px;
+    }
+    .home-enterprise-wrapper h2,
+    .exploring .exploring-content h2,
+    .get-started h2{
+        font-size: 26px;
+    }
+    .home-enterprise-wrapper p,
+    .our-clients h3{
+        font-size: 18px;
+    }
+    .home-enterprise-wrapper .contact{
+        margin-top: 36px;
+    }
+    .exploring .exploring-content p{
+        font-size: 14px;
+    }
+    .our-clients i{
+        margin: 10px 14px;
+        font-size: 1.5em;
+    }
+    .teamwork .side-1 h2, 
+    .security .side-1 h2, 
+    .integrations .side-1 h2, 
+    .workplace .side-1 h2{
+        font-size: 40px;
+    }
+}
+@media (max-width: 992px) { 
+    .exploring .exploring-content{
+        text-align: center;
+    }
+    .integrations .side-2 .apps-cluster-2, 
+    .integrations .side-2 .apps-cluster-4, 
+    .integrations .side-2 .apps-cluster-6{
+        margin-top: 0;
+    }
+}
